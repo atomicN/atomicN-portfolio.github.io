@@ -1,0 +1,339 @@
+
+
+header {
+	background:url(images/first-bg.jpg) no-repeat center top / cover;
+	
+	width:1400px;
+	padding-top:40px;
+	margin:0 auto;
+	
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+body a {
+	text-decoration: none;
+	color:black;
+}
+body a:hover {
+	font-size: 1.05em;
+	transform:scale(1.05);
+	transition:0.3s;
+}
+body p {
+	color:#777777;
+}
+
+.container {
+	text-align: center;
+	width:930px;
+	margin:0 auto;
+}
+
+.logo {
+	margin-right: 31%;
+	width:85px;
+	height:27px;
+	
+}
+.menu {
+	display:block;
+	float:right;
+	margin:0 ;
+
+	padding: 0;
+}
+.menu li {
+	float:left;
+	list-style: none;
+	margin-left:44px;
+
+}
+.menu a {
+	text-decoration:none;
+	font-size:14px;
+	font-weight:550;
+	color:#fff;
+	text-transform: uppercase;
+
+}
+.greeting {
+	
+	color:#fff;
+	font-size:30px;
+	font-weight:;
+	
+	text-transform: uppercase;
+	margin-top:202px;
+}
+.button {
+	
+	font-size:14px;
+	display:inline-block;
+	width:240px;
+	color:#484543;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	margin-left:auto;
+	background: #FED136;
+	border-radius: 3px;
+	margin-bottom: 154px;
+
+}
+
+.button:hover {
+	color:#FFFFFF;
+	text-shadow:0 0 2px #EDEDED;
+	background-color: rgba(254,209,54,0);
+	transition:1s;
+}
+
+.services_main {
+	line-height: 23px;
+}
+.services_main h1 {
+	text-transform: uppercase;
+	font-weight: 530;
+	font-size: 32px;
+	margin-top: 126px;
+	
+}
+.services_main p {
+	font-size: 13px;
+	color:#777777;
+}
+.services {
+	display:flex;
+	justify-content: center;
+	margin-top: 80px ;
+	text-align: center;
+	
+}
+
+.service h3 {
+	color:#000;
+}
+
+.service {
+	width:33%px;
+	padding:0;
+	color: #777777;
+}
+
+.service p {
+	font-size: 10px;
+}
+
+
+
+
+.portfolio {
+	padding-top: 116px;
+	padding-bottom: 130px;
+	width: 1400px;
+	height:694px;
+	background: #F7F7F7;
+}
+.portfolio_box {
+	display: flex;
+	justify-content: center;
+	
+}
+.portfolio h1{
+	
+	text-transform: uppercase;
+	font-weight: 530;
+	
+	font-size: 32px;
+	
+}
+
+.portfolio p {
+	color:#777777;
+}
+
+ .portfolio .image {
+ 	width:290px;
+ 	height:300px;
+ 	margin-left:22px; 
+ }
+
+ .portfolio .one {
+ 	margin-left: auto;
+ }
+ .about p {
+ 	color:#777777;
+ }
+ .about h1 {
+ 	text-transform: uppercase;
+	font-weight: 530;
+	
+	font-size: 32px;
+ }
+
+ .about1 {
+ 	display: flex;
+ 	justify-content:center;
+ }
+
+.aboutdesc {
+	padding-top:0;
+	width: 280px;
+	height: 180px;
+	margin-right:40px;
+}
+
+.aboutdesc span {
+	text-transform: uppercase;
+}
+.aboutdesc h2 {
+	margin:0;
+	line-height: 120%;
+	
+}
+.aboutdesc p {
+	display: inline-block;
+	margin:0;
+
+}
+#text {
+	margin-top:17px;
+	line-height: 150%;
+	text-align: right;
+}
+
+
+
+.about2 {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+.aboutdesc2 {
+	padding-top:0;
+	width: 280px;
+	height: 180px;
+	margin-left: 40px;
+}
+
+ .right{
+	padding-top:0;
+	width: 280px;
+	height: 180px;
+	margin-left:40px;
+}
+
+.aboutdesc2 span {
+	text-transform: uppercase;
+}
+.aboutdesc2 h2 {
+	margin:0;
+	line-height: 120%;
+	
+}
+.aboutdesc2 p {
+	display: inline-block;
+	margin:0;
+
+}
+#text2 {
+	margin-top:17px;
+	line-height: 150%;
+	text-align: left;
+}
+
+
+
+
+ .about3 p {
+ 	color:#777777;
+ }
+ .about3 h1 {
+ 	text-transform: uppercase;
+	font-weight: 530;
+	
+	font-size: 32px;
+ }
+
+ .about3 {
+ 	margin-top: 100px;
+ 	display: flex;
+ 	justify-content:center;
+ }
+
+.aboutdesc3 {
+	padding-top:0;
+	width: 280px;
+	height: 180px;
+	margin-right:40px;
+}
+
+.aboutdesc3 span {
+	text-transform: uppercase;
+}
+.aboutdesc3 h2 {
+	margin:0;
+	line-height: 120%;
+	
+}
+.aboutdesc3 p {
+	display: inline-block;
+	margin:0;
+
+}
+#text3 {
+	margin-top:17px;
+	line-height: 150%;
+	text-align: right;
+}
+
+
+
+
+
+
+.about4 {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+.aboutdesc4 {
+	padding-top:0;
+	width: 280px;
+	height: 180px;
+	margin-left: 40px;
+}
+
+ .right{
+	padding-top:0;
+	width: 280px;
+	height: 180px;
+	margin-left:40px;
+}
+
+.aboutdesc4 span {
+	text-transform: uppercase;
+}
+.aboutdesc4 h2 {
+	margin:0;
+	line-height: 120%;
+	
+}
+.aboutdesc4 p {
+	display: inline-block;
+	margin:0;
+
+}
+#text4 {
+	margin-top:17px;
+	line-height: 150%;
+	text-align: left;
+}
+footer {
+	margin:110px;
+	text-align: center;
+}
+
+
